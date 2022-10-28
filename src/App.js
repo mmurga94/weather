@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import {Route} from 'react-router-dom';
 import About from './components/About';
 import City from './components/City';
+import swal from 'sweetalert';
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4ae2636d8dfbdc3044bede63951a019b&units=metric`)
     .then(r => r.json())
     .then(data => {
-      data.main !== undefined && filtro(data) ? setCities([...cities, data]) : alert('Ciudad no encontrada o ya registrada')
+      data.main !== undefined && filtro(data) ? setCities([...cities, data]) : swal('Ciudad no encontrada o ya registrada')
     })
   }
 
