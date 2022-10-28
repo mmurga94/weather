@@ -20,7 +20,7 @@ function App() {
   }
 
   const handleCities = (city) => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4ae2636d8dfbdc3044bede63951a019b&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4ae2636d8dfbdc3044bede63951a019b&units=metric`)
     .then(r => r.json())
     .then(data => {
       data.main !== undefined && filtro(data) ? setCities([...cities, data]) : alert('Ciudad no encontrada o ya registrada')
