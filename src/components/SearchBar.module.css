@@ -1,0 +1,23 @@
+.button {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #9CFF33;
+    color: #33FF46;
+    padding: 0.2rem 0.6rem;
+    margin: 0.2rem;
+}
+
+.button:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em green;
+  cursor: pointer;
+  transform: translateY(-0.25em);
+}
+
+.input {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #9CFF33;
+    padding: 0.2rem;
+}
+
+

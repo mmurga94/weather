@@ -1,0 +1,70 @@
+.divPrincipal{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 0.2rem solid #FF3333;
+    margin: 1rem 0.2rem;
+    border-radius: 0.5rem;
+    justify-content: space-around;
+}
+
+.divPrincipal:hover{
+    background-color: #FF3333;
+    color: white;
+    box-shadow: 0 0.6rem 1rem -0.4rem red;
+    transform: translateY(-0.70rem);
+}
+
+.button {
+    background-color: #FF3333;
+    color: white;
+    border: 0;
+    border-radius: 0.2rem;
+    align-self: flex-end;
+    margin: 0.2rem;
+}
+
+.button:hover {
+    background-color: white;
+    color: #FF3333;
+    cursor: pointer;
+}
+
+.img {
+    width: fit-content;
+}
+
+.sectionSubCard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectionCardData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link {
+    color: white;
+    width: 50%;
+    background-color: #FF3333;
+    margin: 1rem auto;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    border: 0.1rem solid white;
+}
+
+.link:hover {
+    background-color: white;
+    color: #FF3333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.title {
+    width: 90%;
+    margin: 0rem auto;
+    /* font-size: 2.5rem;
+    font-weight: 500; */
+}

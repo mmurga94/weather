@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
+
+.button {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #9CFF33;
+    color: #33FF46;
+    padding: 0.2rem 0.6rem;
+    margin: 0.2rem;
+    text-decoration: none;
+}
+
+
+.button:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em green;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  text-decoration: none;
+  color: #33FF46;
+}
+
+.active {
+  background-color: #33FF46;
+  color: white;
+}
+
+.active:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em green;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  text-decoration: none;
+  color: white
+}
